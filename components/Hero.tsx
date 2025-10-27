@@ -7,19 +7,22 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"
     >
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80')] bg-cover bg-center"></div>
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-primary/80 to-blue-600/90"></div>
-        {/* Animated Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80')] bg-cover bg-center opacity-30"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/95 via-slate-800/95 to-slate-900/95"></div>
+        {/* Premium Animated Background Pattern */}
+        <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0" style={{
             backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
             backgroundSize: '40px 40px'
           }}></div>
         </div>
+        {/* Floating orbs */}
+        <div className="absolute top-20 left-20 w-96 h-96 bg-slate-700/20 rounded-full blur-3xl animate-float"></div>
+        <div className="absolute bottom-20 right-20 w-96 h-96 bg-slate-600/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
       </div>
       
       {/* Content */}
@@ -29,10 +32,10 @@ export default function Hero() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 drop-shadow-2xl"
+            className="text-5xl md:text-6xl lg:text-7xl font-space font-bold text-white mb-6 drop-shadow-2xl tracking-tight"
           >
-            <span className="block mb-2">Your Trusted</span>
-            <span className="bg-gradient-to-r from-white via-blue-50 to-white bg-clip-text text-transparent">
+            <span className="block mb-3 text-slate-200">Your Trusted</span>
+            <span className="bg-gradient-to-r from-white via-slate-100 to-white bg-clip-text text-transparent">
               Moving Partners in Canada
             </span>
           </motion.h1>
@@ -41,7 +44,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto font-medium"
+            className="text-xl md:text-2xl text-slate-300 mb-10 max-w-3xl mx-auto font-light leading-relaxed"
           >
             Professional moving services you can trust. Experience the difference with A One Movers.
           </motion.p>
@@ -50,11 +53,11 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4"
+            className="flex flex-col sm:flex-row items-center justify-center gap-6"
           >
             <a
               href="#contact"
-              className="group glass-card text-primary px-10 py-5 rounded-2xl font-bold text-lg hover:shadow-3xl hover:scale-110 transition-all shadow-2xl flex items-center gap-2"
+              className="group glass-card-dark text-white px-12 py-6 rounded-2xl font-semibold text-lg hover:shadow-premium-lg hover:scale-105 transition-all shadow-premium border border-white/20 hover:border-white/30 flex items-center gap-3 backdrop-blur-2xl"
             >
               Book Your Move
               <ChevronRight className="group-hover:translate-x-1 transition-transform" size={24} />
@@ -62,7 +65,7 @@ export default function Hero() {
 
             <a
               href="#contact"
-              className="group glass text-white border border-white/40 px-10 py-5 rounded-2xl font-bold text-lg hover:border-white/60 hover:scale-110 transition-all shadow-2xl hover:shadow-3xl flex items-center gap-2 backdrop-blur-xl"
+              className="group glass text-white border border-white/30 px-12 py-6 rounded-2xl font-semibold text-lg hover:border-white/50 hover:scale-105 transition-all shadow-premium hover:shadow-premium-lg flex items-center gap-3 backdrop-blur-2xl"
             >
               <Calculator size={24} className="group-hover:scale-125 transition-transform" />
               Free Quote
@@ -74,19 +77,19 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.6 }}
-            className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto"
+            className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto"
           >
-            <div className="glass rounded-3xl p-8 border border-white/30 shadow-2xl hover:border-white/50 transition-all hover:scale-105">
-              <div className="text-5xl font-bold text-white mb-3">500+</div>
-              <div className="text-blue-100 font-semibold">Happy Moves</div>
+            <div className="glass-card-dark rounded-3xl p-8 border border-white/20 shadow-premium hover:border-white/40 transition-all hover:scale-105 group">
+              <div className="text-5xl font-bold text-white mb-3 group-hover:scale-110 transition-transform">500+</div>
+              <div className="text-slate-300 font-medium">Happy Moves</div>
             </div>
-            <div className="glass rounded-3xl p-8 border border-white/30 shadow-2xl hover:border-white/50 transition-all hover:scale-105">
-              <div className="text-5xl font-bold text-white mb-3">98%</div>
-              <div className="text-blue-100 font-semibold">Satisfaction</div>
+            <div className="glass-card-dark rounded-3xl p-8 border border-white/20 shadow-premium hover:border-white/40 transition-all hover:scale-105 group">
+              <div className="text-5xl font-bold text-white mb-3 group-hover:scale-110 transition-transform">98%</div>
+              <div className="text-slate-300 font-medium">Satisfaction</div>
             </div>
-            <div className="glass rounded-3xl p-8 border border-white/30 shadow-2xl hover:border-white/50 transition-all hover:scale-105">
-              <div className="text-5xl font-bold text-white mb-3">24/7</div>
-              <div className="text-blue-100 font-semibold">Support</div>
+            <div className="glass-card-dark rounded-3xl p-8 border border-white/20 shadow-premium hover:border-white/40 transition-all hover:scale-105 group">
+              <div className="text-5xl font-bold text-white mb-3 group-hover:scale-110 transition-transform">24/7</div>
+              <div className="text-slate-300 font-medium">Support</div>
             </div>
           </motion.div>
         </div>
@@ -94,8 +97,8 @@ export default function Hero() {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-white/50 rounded-full mt-2"></div>
+        <div className="glass-light w-6 h-10 border-2 border-white/30 rounded-full flex justify-center backdrop-blur-xl shadow-premium">
+          <div className="w-1 h-3 bg-white/60 rounded-full mt-2"></div>
         </div>
       </div>
     </section>

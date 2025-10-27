@@ -21,38 +21,38 @@ export default function Footer() {
   ]
 
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="glass-card-dark text-white border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="bg-primary px-4 py-2 rounded-lg font-bold text-xl">
+              <div className="glass px-4 py-2 rounded-lg font-bold text-xl border border-white/20">
                 A ONE
               </div>
               <span className="font-bold text-xl">MOVERS</span>
             </div>
-            <p className="text-gray-400 mb-4">
+            <p className="text-slate-300 mb-4">
               Your trusted moving partner across Canada. Professional, reliable, and affordable moving services.
             </p>
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="bg-gray-800 p-2 rounded-lg hover:bg-primary transition-all"
+                className="glass p-2 rounded-lg hover:bg-white/10 transition-all border border-white/20 hover:border-white/30"
                 aria-label="Facebook"
               >
                 <Facebook size={20} />
               </a>
               <a
                 href="#"
-                className="bg-gray-800 p-2 rounded-lg hover:bg-primary transition-all"
+                className="glass p-2 rounded-lg hover:bg-white/10 transition-all border border-white/20 hover:border-white/30"
                 aria-label="Instagram"
               >
                 <Instagram size={20} />
               </a>
               <a
                 href="#"
-                className="bg-gray-800 p-2 rounded-lg hover:bg-primary transition-all"
+                className="glass p-2 rounded-lg hover:bg-white/10 transition-all border border-white/20 hover:border-white/30"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={20} />
@@ -68,7 +68,7 @@ export default function Footer() {
                 <li key={item.href}>
                   <a
                     href={item.href}
-                    className="text-gray-400 hover:text-primary transition-colors"
+                    className="text-slate-300 hover:text-white transition-colors"
                   >
                     {item.label}
                   </a>
@@ -85,7 +85,7 @@ export default function Footer() {
                 <li key={service}>
                   <a
                     href="#services"
-                    className="text-gray-400 hover:text-primary transition-colors"
+                    className="text-slate-300 hover:text-white transition-colors"
                   >
                     {service}
                   </a>
@@ -97,7 +97,7 @@ export default function Footer() {
           {/* Contact Info */}
           <div>
             <h3 className="font-bold text-lg mb-4">Contact Us</h3>
-            <div className="space-y-3 text-gray-400">
+            <div className="space-y-3 text-slate-300">
               <p>📞 (647) 512-4570</p>
               <p>✉️ info@aonemovers.ca</p>
               <p className="text-sm">
@@ -110,16 +110,16 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 pt-8 mt-8">
+        <div className="border-t border-white/10 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">
+            <p className="text-slate-300 text-sm">
               © {currentYear} A One Movers. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-primary text-sm transition-colors">
+              <a href="#" className="text-slate-300 hover:text-white text-sm transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="text-gray-400 hover:text-primary text-sm transition-colors">
+              <a href="#" className="text-slate-300 hover:text-white text-sm transition-colors">
                 Terms of Service
               </a>
             </div>

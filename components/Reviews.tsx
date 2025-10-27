@@ -13,7 +13,7 @@ export default function Reviews() {
   }, [])
 
   return (
-    <section id="reviews" className="py-20 bg-gradient-to-br from-blue-50 via-white to-gray-50">
+    <section id="reviews" className="py-20 bg-gradient-to-br from-white via-slate-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -23,10 +23,10 @@ export default function Reviews() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            What Our <span className="bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">Customers</span> Say
+          <h2 className="text-4xl md:text-5xl font-space font-bold text-slate-900 mb-4">
+            What Our <span className="text-gradient-primary">Customers</span> Say
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
             Real feedback from satisfied customers across Canada
           </p>
         </motion.div>
@@ -37,7 +37,7 @@ export default function Reviews() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="max-w-6xl mx-auto glass-card rounded-3xl p-8 shadow-3xl border border-white/40 backdrop-blur-xl"
+          className="max-w-6xl mx-auto glass-card rounded-3xl p-8 shadow-premium-lg border border-slate-200/50 backdrop-blur-2xl"
         >
           {/* Elfsight Google Reviews Widget */}
           <div 
