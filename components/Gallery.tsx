@@ -106,7 +106,7 @@ export default function Gallery() {
             <div className="text-gray-700 font-semibold text-sm sm:text-base">Successful Moves</div>
           </div>
           <div className="text-center glass-card rounded-3xl p-5 sm:p-6 md:p-8 shadow-2xl border border-white/40 hover:border-primary/50 transition-all hover:scale-105">
-            <div className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-br from-primary to-blue-600 bg-clip-text text-transparent mb-1 sm:mb-2">15+</div>
+            <div className="text-3xl sm:text-4xl md:text-5xl font-bold bg-gradient-to-br from-primary to-blue-600 bg-clip-text text-transparent mb-1 sm:mb-2">2+</div>
             <div className="text-gray-700 font-semibold text-sm sm:text-base">Years Experience</div>
           </div>
           <div className="text-center glass-card rounded-3xl p-5 sm:p-6 md:p-8 shadow-2xl border border-white/40 hover:border-primary/50 transition-all hover:scale-105">

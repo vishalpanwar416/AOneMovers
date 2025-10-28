@@ -35,7 +35,7 @@ export default function Contact() {
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-1 h-8 bg-gradient-to-b from-primary to-blue-600 rounded-full"></div>
                 <h3 className="text-xl sm:text-2xl font-bold text-gray-900">
-                  Request a Free Quote
+                  Get Your Free Estimate
                 </h3>
               </div>
               <p className="text-gray-600 mb-6 text-sm">Fill out the form below and we'll get back to you within 24 hours.</p>

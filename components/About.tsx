@@ -12,8 +12,8 @@ export default function About() {
     },
     {
       icon: <Award className="text-primary" size={32} />,
-      title: '15+ Years Experience',
-      description: 'Proven track record in the moving industry',
+      title: '2+ Years Experience',
+      description: 'A growing track record of reliable, on‑time moves',
     },
     {
       icon: <Users className="text-primary" size={32} />,
