@@ -5,36 +5,36 @@ import { Phone, Mail, MapPin, Clock, ChevronRight } from 'lucide-react'
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 bg-gray-50">
+    <section id="contact" className="py-16 sm:py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16"
+          className="text-center mb-12 sm:mb-16"
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
             Get in Touch
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
             Ready to make your move? Contact us today for a free quote
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Contact Form */}
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div className="bg-gradient-to-br from-white to-gray-50 rounded-3xl p-8 shadow-2xl ring-2 ring-primary/10">
+            <div className="bg-gradient-to-br from-white to-gray-50 rounded-3xl p-6 sm:p-8 shadow-2xl ring-2 ring-primary/10">
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-1 h-8 bg-gradient-to-b from-primary to-blue-600 rounded-full"></div>
-                <h3 className="text-2xl font-bold text-gray-900">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900">
                   Request a Free Quote
                 </h3>
               </div>
@@ -98,7 +98,7 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-primary to-blue-600 text-white px-6 py-4 rounded-xl font-bold text-lg hover:from-blue-700 hover:to-blue-800 transition-all shadow-xl hover:shadow-2xl hover:scale-[1.02] flex items-center justify-center gap-2"
+                  className="w-full bg-gradient-to-r from-primary to-blue-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-xl font-semibold sm:font-bold text-base sm:text-lg hover:from-blue-700 hover:to-blue-800 transition-all shadow-xl hover:shadow-2xl hover:scale-[1.02] flex items-center justify-center gap-2"
                 >
                   Send Message
                   <ChevronRight size={22} />
@@ -109,17 +109,17 @@ export default function Contact() {
 
           {/* Contact Information */}
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="space-y-8"
+            className="space-y-6 sm:space-y-8"
           >
             {/* Business Info */}
-            <div className="bg-gradient-to-br from-white to-gray-50 rounded-3xl p-8 shadow-2xl ring-2 ring-primary/10">
+            <div className="bg-gradient-to-br from-white to-gray-50 rounded-3xl p-6 sm:p-8 shadow-2xl ring-2 ring-primary/10">
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-1 h-8 bg-gradient-to-b from-primary to-blue-600 rounded-full"></div>
-                <h3 className="text-2xl font-bold text-gray-900">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900">
                   Contact Information
                 </h3>
               </div>
