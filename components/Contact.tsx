@@ -183,7 +183,7 @@ export default function Contact() {
             {/* Google Maps */}
             <div className="glass-card rounded-3xl overflow-hidden shadow-3xl border border-white/40">
               <iframe
-                src="https://www.google.com/maps?q=A+one+movers&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.8419908893954!2d-79.77542092345821!3d43.74881147109896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b15ba3d36f3a1%3A0x5e6c2e3b8a7f2c1d!2s9455%20Mississauga%20Rd%2C%20Brampton%2C%20ON%20L6X%200Z8!5e0!3m2!1sen!2sca!4v1234567890123!5m2!1sen!2sca"
                 width="100%"
                 height="300"
                 style={{ border: 0 }}

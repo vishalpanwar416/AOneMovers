@@ -43,7 +43,7 @@ export default function About() {
               {/* Professional Moving Image */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-blue-600">
                 <div className="absolute inset-0 opacity-90" style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80')",
+                  backgroundImage: "url('https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&q=80')",
                   backgroundSize: 'cover',
                   backgroundPosition: 'center'
                 }}></div>

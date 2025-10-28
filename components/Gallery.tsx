@@ -4,32 +4,32 @@ import { motion } from 'framer-motion'
 
 const galleryItems = [
   {
-    image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1464082354059-27db6ce50048?w=800&q=80',
     title: 'Moving Trucks',
     description: 'Fully equipped fleet ready for any move',
   },
   {
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&q=80',
     title: 'Packaging Services',
     description: 'Professional packing for fragile items',
   },
   {
-    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80',
     title: 'Residential Moves',
     description: 'Moving families across Canada',
   },
   {
-    image: 'https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80',
     title: 'Commercial Moves',
     description: 'Expert business relocations',
   },
   {
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80',
     title: 'Careful Handling',
     description: 'Your belongings in safe hands',
   },
   {
-    image: 'https://images.unsplash.com/photo-1601412436009-d964bd02edbc?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80',
     title: 'Storage Solutions',
     description: 'Secure storage facilities',
   },
