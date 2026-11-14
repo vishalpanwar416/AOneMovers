@@ -101,8 +101,8 @@ export default function Footer() {
               <p>📞 (647) 512-4570</p>
               <p>✉️ info@aonemovers.ca</p>
               <p className="text-sm">
-                9455 Mississauga Rd<br />
-                Brampton, ON L6X 0Z8<br />
+                Unit 1, 1 Hurontario St<br />
+                Mississauga, ON<br />
                 Canada
               </p>
             </div>

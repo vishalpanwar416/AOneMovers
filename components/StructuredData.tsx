@@ -9,16 +9,10 @@ export default function StructuredData() {
     email: 'info@aonemovers.ca',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '9455 Mississauga Rd',
-      addressLocality: 'Brampton',
+      streetAddress: 'Unit 1, 1 Hurontario St',
+      addressLocality: 'Mississauga',
       addressRegion: 'ON',
-      postalCode: 'L6X 0Z8',
       addressCountry: 'CA',
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: '43.7350',
-      longitude: '-79.7690',
     },
     priceRange: '$$',
     areaServed: {
@@ -62,10 +56,9 @@ export default function StructuredData() {
     email: 'info@aonemovers.ca',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '9455 Mississauga Rd',
-      addressLocality: 'Brampton',
+      streetAddress: 'Unit 1, 1 Hurontario St',
+      addressLocality: 'Mississauga',
       addressRegion: 'Ontario',
-      postalCode: 'L6X 0Z8',
       addressCountry: 'Canada',
     },
     priceRange: '$$',
