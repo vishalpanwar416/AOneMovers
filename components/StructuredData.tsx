@@ -6,7 +6,7 @@ export default function StructuredData() {
     description: 'Professional moving services across Canada',
     url: 'https://www.aonemovers.ca',
     telephone: '+16475124570',
-    email: 'info@aonemovers.ca',
+    email: 'aonemovers919@gmail.com',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Unit 1, 1 Hurontario St',
@@ -53,7 +53,7 @@ export default function StructuredData() {
     '@id': 'https://www.aonemovers.ca',
     url: 'https://www.aonemovers.ca',
     telephone: '+16475124570',
-    email: 'info@aonemovers.ca',
+    email: 'aonemovers919@gmail.com',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Unit 1, 1 Hurontario St',

@@ -144,8 +144,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                    <a href="mailto:info@aonemovers.ca" className="text-gray-600 hover:text-primary transition-colors">
-                      info@aonemovers.ca
+                    <a href="mailto:aonemovers919@gmail.com" className="text-gray-600 hover:text-primary transition-colors">
+                      aonemovers919@gmail.com
                     </a>
                   </div>
                 </div>

@@ -99,7 +99,7 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Contact Us</h3>
             <div className="space-y-3 text-gray-400">
               <p>📞 (647) 512-4570</p>
-              <p>✉️ info@aonemovers.ca</p>
+              <p>✉️ aonemovers919@gmail.com</p>
               <p className="text-sm">
                 Unit 1, 1 Hurontario St<br />
                 Mississauga, ON<br />
