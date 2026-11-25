@@ -3,7 +3,24 @@
 import { motion } from 'framer-motion'
 import { Phone, Mail, MapPin, Clock, ChevronRight } from 'lucide-react'
 
+const CONTACT_EMAIL = 'aonemovers919@gmail.com'
+
 export default function Contact() {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    const data = new FormData(e.currentTarget)
+    const name = String(data.get('name') || '')
+    const subject = `Free Estimate Request from ${name}`
+    const body = [
+      `Name: ${name}`,
+      `Email: ${data.get('email') || ''}`,
+      `Phone: ${data.get('phone') || ''}`,
+      '',
+      String(data.get('message') || ''),
+    ].join('\n')
+    window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+  }
+
   return (
     <section id="contact" className="py-16 sm:py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -39,7 +56,7 @@ export default function Contact() {
                 </h3>
               </div>
               <p className="text-gray-600 mb-6 text-sm">Fill out the form below and we'll get back to you within 24 hours.</p>
-              <form className="space-y-6">
+              <form className="space-y-6" onSubmit={handleSubmit}>
                 <div>
                   <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
                     Full Name
@@ -144,8 +161,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                    <a href="mailto:aonemovers919@gmail.com" className="text-gray-600 hover:text-primary transition-colors">
-                      aonemovers919@gmail.com
+                    <a href={`mailto:${CONTACT_EMAIL}`} className="text-gray-600 hover:text-primary transition-colors">
+                      {CONTACT_EMAIL}
                     </a>
                   </div>
                 </div>

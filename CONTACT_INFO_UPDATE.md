@@ -49,7 +49,7 @@ Updated structured data for better SEO:
 {
   "name": "A One Movers",
   "telephone": "+14169075515",
-  "email": "info@aonemovers.ca",
+  "email": "aonemovers919@gmail.com",
   "address": {
     "addressLocality": "Toronto",
     "addressRegion": "Ontario",

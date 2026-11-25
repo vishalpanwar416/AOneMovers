@@ -54,7 +54,7 @@ Brampton, ON L6X 0Z8
 Canada
 
 Phone: (647) 512-4570
-Email: info@aonemovers.ca
+Email: aonemovers919@gmail.com
 ```
 
 ### Schema.org Data Updated:
@@ -62,7 +62,7 @@ Email: info@aonemovers.ca
 {
   "name": "A One Movers",
   "telephone": "+16475124570",
-  "email": "info@aonemovers.ca",
+  "email": "aonemovers919@gmail.com",
   "address": {
     "streetAddress": "9455 Mississauga Rd",
     "addressLocality": "Brampton",

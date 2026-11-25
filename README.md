@@ -108,5 +108,5 @@ See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions.
 
 ## 📞 Contact
 
-For questions or support, contact info@aonemovers.ca
+For questions or support, contact aonemovers919@gmail.com
 
